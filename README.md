@@ -2,7 +2,7 @@
 This app copies text from other android application in it.
 
 <h3>Enable Accessibility service</h3>
-![](accessibilityappimages/page1.jpg)
+![](accessibility app images/page1.jpg)
 
 
 <h3>Main Page</h3>
@@ -17,5 +17,6 @@ This app copies text from other android application in it.
 
 <h3>On Refreshing</h3>
 <img src="C:\Users\yuves\Documents\page6.jpg">
+
 
 
