@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95BDFF">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Accessibility app"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/info_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="This app allows you to store text from other apps along with the name of that android application"
+        android:textAlignment="center"
+        android:layout_below="@id/title_text_view"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/start_service_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/info_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#554994"/>
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"
+        android:backgroundTint="#554994"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_service_button"
+        android:layout_above="@id/refresh"
+        android:padding="10dp" />
+
+</RelativeLayout>
